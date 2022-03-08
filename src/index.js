@@ -4,6 +4,8 @@ import './index.css';
 import './bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "@fontsource/abril-fatface"
+import "@fontsource/nunito-sans"
 
 ReactDOM.render(
   <React.StrictMode>

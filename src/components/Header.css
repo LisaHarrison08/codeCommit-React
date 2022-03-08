@@ -13,9 +13,10 @@ header .banner-text {
 
 header h1{
     color: #fdfefe;
-    font-size: 50px;
-    font-family: 'Abril Fatface', Times New Roman, sans-serif;
-    font-weight: 800;
+    font-size: 4em;
+    font-family: 'Abril Fatface', Times New Roman, sans-serif;/* No capitalization, the text renders as it is (default) */
+    font-weight: 500;
 	line-height: 1.1;
+    text-transform: none;
 }
 
