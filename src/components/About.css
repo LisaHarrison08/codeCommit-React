@@ -1,0 +1,21 @@
+img {
+	height: auto;
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+h4 {
+	text-align: center;
+	color: darkslategray;
+	padding: 10px;
+}
+
+p {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
