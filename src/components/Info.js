@@ -2,11 +2,11 @@ import React from "react"
 import { Container, Col, Row } from "react-bootstrap"
 import { faUsers, faCode, faShareFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import './Info.css'
 
-function Info() {
+
+const Info = () => {
     return (
-        <Container fluid>
+        <Container fluid className="info-section">
             <Row>
                 <h2 className="info-title">The place to:</h2>
             </Row>

@@ -1,9 +1,10 @@
 import React from "react"
 import header from "../assets/head.png"
 import { Container } from "react-bootstrap"
-import './Header.css'
 
-function Header() {
+
+
+const Header = () => {
     return (
         <header>
             <Container fluid>

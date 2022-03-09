@@ -3,19 +3,19 @@ import work from "../assets/work.png"
 import woyou from "../assets/woyou.png"
 import computer from "../assets/computer.png"
 import { Container, Col, Row } from "react-bootstrap"
-import './Creator.css'
 
 
-function Creator() {
+
+const Creator = () => {
     return (
-        <Container>
+        <Container className="creator-space">
             <Row className="creator-title">
                 <h2>Creator Space</h2>
             </Row>
             <Row>
                 <Col xs={12} md={4}>
                     <img
-                        className="image"
+                        className="creator-image"
                         src={work}
                         alt="Person sat at a computer"
                     />
@@ -24,7 +24,7 @@ function Creator() {
                 </Col>
                 <Col xs={12} md={4}>
                     <img
-                        className="image"
+                        className="creator-image"
                         src={woyou}
                         alt="Person sat at a computer"
                     />
@@ -33,7 +33,7 @@ function Creator() {
                 </Col>
                 <Col xs={12} md={4}>
                     <img
-                        className="image"
+                        className="creator-image"
                         src={computer}
                         alt="Person sat at a computer"
                     />

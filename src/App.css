@@ -1,4 +1,103 @@
+/* Header Section */
+.background-image{
+    position: relative;
+    width:100%;
+    height:500px;
+}
 
+header .banner-text {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
+header h1{
+    color: #fdfefe;
+    font-size: 4em;
+    font-family: 'Abril Fatface', Times New Roman, sans-serif;/* No capitalization, the text renders as it is (default) */
+    font-weight: 500;
+	line-height: 1.1;
+    text-transform: none;
+}
 
+/* Info Section */
 
+.fa-container{
+    align-items: center;
+    width:100%;
+    padding-bottom: 20px;
+    color:#000000;
+}
+
+.info-title, h2{
+    font-family: "Abril Fatface",Times New Roman, sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+    text-transform: none;
+    margin-top:40px;
+    margin-bottom:40px;
+} 
+
+.info-section, h3{
+    font-family: "Abril Fatface",Times New Roman, sans-serif;;
+    font-size: 2em;
+    color:#272626;
+    text-transform: none;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.info-section,p {
+	font-size: 1em;
+	font-family: Nunito Sans, Times New Roman, sans-serif;
+	color: #0c0e0e;
+    margin-bottom:60px;
+}
+
+/* About Us */
+.about-image {
+	height: auto;
+	width: 100%;
+}
+
+.about-section,h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.about-section,h4 {
+	text-align: center;
+	color: darkslategray;
+	padding: 10px;
+}
+
+.about-section,p {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Creator Section */
+
+.creator-image{
+    align-items: center;
+    height:auto;
+    width:100%;
+}
+
+.creator-title {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.creator-space, p {
+	font-size: 1em;
+	font-family: Nunito Sans, Times New Roman, sans-serif;
+	color: #0c0e0e;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+/* Join Section */

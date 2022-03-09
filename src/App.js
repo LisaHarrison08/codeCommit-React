@@ -4,8 +4,9 @@ import Header from './components/Header';
 import Info from './components/Info';
 import About from './components/About';
 import Creator from './components/Creator';
+// import Join from './components/Join'
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       < Header />
