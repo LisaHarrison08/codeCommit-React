@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Info from './components/Info';
 import About from './components/About';
+import Creator from './components/Creator';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       < Header />
       <Info />
       <About />
+      <Creator />
     </React.Fragment>
   )
 }
