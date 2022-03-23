@@ -56,6 +56,11 @@ header h1{
 }
 
 /* About Us */
+
+.about-section{
+    background-color: rgb(246, 246, 246);
+}
+
 .about-image {
 	height: auto;
 	width: 100%;
@@ -101,3 +106,22 @@ header h1{
 }
 
 /* Join Section */
+
+
+/* Footer Section */
+.site-footer {
+	/* background-color: rgb(233, 223, 223); */
+	background-color: black;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.icon-link{
+	padding-left:80px;
+	color:white;
+}
+
+.icon-link:hover{
+	color:#2bac96;
+}

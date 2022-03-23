@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Info from './components/Info';
 import About from './components/About';
 import Creator from './components/Creator';
+import Footer from './components/Footer';
+// import Nav from './components/Nav';
 // import Join from './components/Join'
 
 const App = () => {
@@ -13,6 +15,7 @@ const App = () => {
       <Info />
       <About />
       <Creator />
+      < Footer />
     </React.Fragment>
   )
 }
