@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Info from './components/Info';
 import About from './components/About';
 import Creator from './components/Creator';
+import Join from './components/Join';
 import Footer from './components/Footer';
 // import Nav from './components/Nav';
 // import Join from './components/Join'
@@ -15,6 +16,7 @@ const App = () => {
       <Info />
       <About />
       <Creator />
+      <Join />
       < Footer />
     </React.Fragment>
   )

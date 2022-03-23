@@ -106,7 +106,27 @@ header h1{
 }
 
 /* Join Section */
+.form--container{
+    background-color: #84afa8;
+    padding:40px;
+}
 
+.form-group{
+    padding:10px;
+}
+
+.btn-custom {
+    font-size: 1.2em;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(14, 17, 17);
+ }
+
+ h1{
+     font-size:1.5em;
+     text-align:center;
+     text-transform: none;
+ }
 
 /* Footer Section */
 .site-footer {
