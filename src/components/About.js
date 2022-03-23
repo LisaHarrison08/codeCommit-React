@@ -15,7 +15,7 @@ const About = () => {
                 </Col>
                 <Col xs={12} md={6}>
                     <h2 id="about">About Us</h2>
-                    <h4>Code Commit is an organization that...</h4>
+                    <h4>Code Commit is a community that...</h4>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
                         rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                         explicabo.
