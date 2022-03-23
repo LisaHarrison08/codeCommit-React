@@ -6,12 +6,13 @@ import About from './components/About';
 import Creator from './components/Creator';
 import Join from './components/Join';
 import Footer from './components/Footer';
-// import Nav from './components/Nav';
+import Nav from './components/Nav';
 // import Join from './components/Join'
 
 const App = () => {
   return (
     <React.Fragment>
+      <Nav/>
       < Header />
       <Info />
       <About />

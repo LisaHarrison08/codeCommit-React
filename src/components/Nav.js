@@ -1,19 +1,19 @@
 import React from "react"
-import { Container, Navbar } from "react-bootstrap"
+import { Container, Nav, Navbar } from "react-bootstrap"
+// import './Nav.css';
 
-const Nav = () => {
+function Navigation() {
     return (
-        <Navbar bg="light" variant="light">
-            <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
-            </Container>
-        </Navbar>
+        <nav>
+            <Navbar className="justify-content-center" fixed="top" activeKey="/home">
+                    <Nav.Link href="/home" className="nav-home">Home</Nav.Link>
+                    <Nav.Link href="#what-we-do" className="nav-items">What we do</Nav.Link>
+                    <Nav.Link href="#about" className="nav-items">About</Nav.Link>
+                    <Nav.Link href="#work-space" className="nav-items">Creator space</Nav.Link>
+                    <Nav.Link href="#join" className="nav-items">Contact</Nav.Link>
+            </Navbar>
+        </nav>
     )
 }
 
-export default Nav;
+export default Navigation;

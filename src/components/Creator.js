@@ -8,7 +8,7 @@ import { Container, Col, Row } from "react-bootstrap"
 
 const Creator = () => {
     return (
-        <Container className="creator-space">
+        <Container className="creator-space" id="work-space">
             <Row className="creator-title">
                 <h2>Creator Space</h2>
             </Row>

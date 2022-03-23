@@ -5,7 +5,7 @@ import { Button, Container, Col, Row } from "react-bootstrap"
 
 const Join = () => {
     return (
-        <Container fluid className="form--container">
+        <Container fluid className="form--container" id="join">
             <h1>Join our coding community! Get in touch:</h1>
             <Form>
                 <Row className="form-group">

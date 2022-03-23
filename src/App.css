@@ -21,6 +21,26 @@ header h1{
     text-transform: none;
 }
 
+/* Navigation */
+.justify-content-center{
+    background-color: black;
+    height:20px;
+    letter-spacing: 2px;
+}
+
+.nav-items{
+    color:white;
+}
+
+.nav-items:hover{
+    color:rgb(81, 136, 110);
+}
+
+.nav-home{
+    color:rgb(79, 158, 154);
+    font-weight:bold;
+}
+
 /* Info Section */
 
 .fa-container{

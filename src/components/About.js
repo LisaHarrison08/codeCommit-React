@@ -4,7 +4,7 @@ import { Container, Col, Row } from "react-bootstrap"
 
 const About = () => {
     return (
-        <Container fluid className="about-section">
+        <Container fluid className="about-section" id="about">
             <Row>
                 <Col xs={12} md={6}>
                     <img
