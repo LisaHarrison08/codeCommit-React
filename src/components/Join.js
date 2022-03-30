@@ -57,21 +57,18 @@ const Join = () => {
                 </Row>
                 <Row className="form-group">
                     <Col md={2}>
-                        <Form.Label>Tell us about yourself</Form.Label>
+                        <Form.Label>Tell us about yourself:</Form.Label>
                     </Col>
                     <Col md={8}>
                         <Form.Control onChange={(e) =>
                             setText(e.target.value)} value={text} as="textarea" maxLength="200" rows="2" placeholder="How long have you been coding? What programming languages excite you?" />
-                    </Col>
-                </Row>
 
-                <Row>
-                    <Col md={8}>
                         <Button variant="custom" size="sm" type="submit">
                             Submit
                         </Button>
                     </Col>
                 </Row>
+
             </Form>
         </Container >
     )
